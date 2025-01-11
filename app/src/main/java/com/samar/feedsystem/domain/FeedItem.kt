@@ -13,7 +13,7 @@ data class ImageFeedItem(
     override val id: String,
     override val timestamp: Long,
     override val username: String,
-    val imageUrls: List<String>
+    val imageUrls: String
 ) : FeedItem(id, timestamp, username)
 
 data class VideoFeedItem(
